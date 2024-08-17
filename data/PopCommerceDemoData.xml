@@ -80,7 +80,21 @@ along with this software (see the LICENSE.md file). If not, see
     -->
 
     <!-- demo POPC Admin app users -->
-    <!-- 电商管理员：王磊 -->
+    <!-- 电商系统中常见角色定义
+         开发人员：张伟、王芳
+         测试人员：刘强、李娜
+         客户：王小明
+         会计：陈丽
+         目录管理：李明
+         系统管理员：赵军
+         电商管理员：王磊
+         采购员：周静
+         销售员：刘涛
+         销售主管：林华
+         仓库管理员：张强
+         仓库办事员：王艳
+         仓库总经理：杨杰
+    -->
     <parties partyId="WangPopc" partyTypeEnumId="PtyPerson">
         <person firstName="王" middleName="" lastName="磊"/>
         <roles roleTypeId="Employee"/>
