@@ -1211,6 +1211,7 @@
     <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="PcntAddToCartImage" locale="zh" localized="添加到购物车图片"/>
     <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="PcntMetaKeywords" locale="zh" localized="元关键字"/>
     <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="PcntMetaDescription" locale="zh" localized="元描述"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="PcntKLineRecord" locale="zh" localized="K线记录"/>
 
 
 
