@@ -62,6 +62,8 @@ along with this software (see the LICENSE.md file). If not, see
         <artifacts artifactName="component://SimpleScreens/screen/SimpleScreens/QuickLookup.xml" artifactTypeEnumId="AT_XML_SCREEN" inheritAuthz="Y"/>
         <artifacts artifactName="component://SimpleScreens/screen/SimpleScreens/Search.xml" artifactTypeEnumId="AT_XML_SCREEN" inheritAuthz="Y"/>
         <artifacts artifactName="component://SimpleScreens/screen/SimpleScreens/SimpleReport/QuickViewReport.xml" artifactTypeEnumId="AT_XML_SCREEN" inheritAuthz="Y"/>
+        <!-- Allow ALL_USERS to access dashboard and main screen for component visibility -->
+        <authz artifactAuthzId="POPC_APP_ALL_USERS" userGroupId="ALL_USERS" authzTypeEnumId="AUTHZT_ALLOW" authzActionEnumId="AUTHZA_VIEW"/>
     </artifactGroups>
 
     <!-- Artifact Groups for Parts of POP Commerce Admin App -->
